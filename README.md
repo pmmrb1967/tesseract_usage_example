@@ -43,16 +43,6 @@ For testing, we've included:
 - `Input/demo_agents.pdf`: Example scanned PDF matching the required layout
 - `Input/reference_layout.png`: Visual guide to the required structure
 
-To use your own files:
-1. Place scanned PDFs in the `/Input` folder
-2. Ensure they match [the reference layout](Input/reference_layout.png)
-
-## 🚀 Usage
-
-- Configure paths in the notebook's Configuration section
-- Run all cells
-- Find results in /Output/agents_export.xlsx
-
 ## 📁 File Management
 
 ### Input Files
@@ -63,6 +53,13 @@ To use your own files:
 ### Output Files
 - Generated Excel files appear in `/Output`
 - (Folder created automatically on first run)
+
+## 🚀 Usage
+
+- Configure paths in the notebook's Configuration section
+- Run all cells
+- Find results in /Output/agents_export.xlsx
+- The Excel Output is like this [excel output](Input/agents_export.png)
 
 ## ⚠️ Limitations
 
