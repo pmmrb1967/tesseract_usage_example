@@ -5,7 +5,7 @@ This Jupyter Notebook demonstrates how to use **Tesseract OCR** to extract struc
 ## ⚠️ Important Requirements
 
 1. **PDF Type**: Works ONLY with **scanned/image-based PDFs** (no selectable text)
-2. **Layout**: PDFs **must match** [this exact layout](reference_layout.png)  
+2. **Layout**: PDFs **must match** [this exact layout](https://github.com/pmmrb1967/tesseract_usage_example/blob/main/Input/reference_layout.png))  
    (Agent blocks must appear in specific positions for proper extraction)
 3. **Output**: Generates an Excel file with structured agent data
 
@@ -47,7 +47,7 @@ For testing, we've included:
 
 ### Input Files
 - Place your scanned PDFs in `/Input`
-- Must follow [this exact layout](Input/reference_layout.png)
+- Must follow the layout in the 'Important Requirements' section
 - Sample file included: `Input/demo_agents.pdf`
 
 ### Output Files
@@ -59,7 +59,7 @@ For testing, we've included:
 - Configure paths in the notebook's Configuration section
 - Run all cells
 - Find results in /Output/agents_export.xlsx
-- The Excel Output is like this [excel output](Input/agents_export.png)
+- The Excel Output is like this [excel output](https://github.com/pmmrb1967/tesseract_usage_example/blob/main/Input/agents_export.png)
 
 ## ⚠️ Limitations
 
