@@ -37,19 +37,32 @@ This Jupyter Notebook demonstrates how to use **Tesseract OCR** to extract struc
 
 3. Place your scanned PDFs in the /Input folder
 
+## � Demo Files
+
+For testing, we've included:
+- `Input/demo_agents.pdf`: Example scanned PDF matching the required layout
+- `Input/reference_layout.png`: Visual guide to the required structure
+
+To use your own files:
+1. Place scanned PDFs in the `/Input` folder
+2. Ensure they match [the reference layout](Input/reference_layout.png)
+
 ## 🚀 Usage
 
 - Configure paths in the notebook's Configuration section
 - Run all cells
 - Find results in /Output/agents_export.xlsx
 
-## 📄 Sample Structure
+## 📁 File Management
 
-Input PDF must contain agent blocks in this exact format:
-![Pdf Page Format]()
+### Input Files
+- Place your scanned PDFs in `/Input`
+- Must follow [this exact layout](Input/reference_layout.png)
+- Sample file included: `Input/demo_agents.pdf`
 
-## 📜 Output Excel Example
-![Excel Output]()
+### Output Files
+- Generated Excel files appear in `/Output`
+- (Folder created automatically on first run)
 
 ## ⚠️ Limitations
 
